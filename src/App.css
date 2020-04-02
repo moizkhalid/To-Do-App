@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: roboto !important;
+}
+input.todo-inputField.form-control {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  display: inline;
+  margin-right: 10px;
+}
+button.add-btn.btn.btn-primary,
+button.other-btn.btn.btn.btn-primary {
+  margin-top: -3px;
+  background: gray;
+  border-color: darkgray;
+}
+button.other-btn.btn.btn.btn-primary {
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  border-color: rgb(107, 107, 107) !important;
+  background: gray !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+.form-control:focus {
+  border-color: darkgray !important;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034) !important;
+}
+button.btn.mt-2.ml-2.btn.btn-primary.btn-cancle {
+  border-radius: 50%;
+  background-color: gray;
+  border-color: darkgray;
+  margin-bottom: 12px;
+}
